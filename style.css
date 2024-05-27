@@ -1,0 +1,73 @@
+
+
+swiper-container {
+    position: relative;
+        width: 30% ;
+        top:30px;
+    }
+ .banner{
+  width: 99%;
+  position: relative;
+  top: 100px;
+ }
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+
+    .dark swiper-container::part(bullet-active) {
+        background-color: #4B5563 !important;
+      }
+     swiper-container::part(bullet-active) {
+        background-color: #F3F4F6;
+      }
+
+
+      @media (max-width: 991px){
+        .banner{
+          width: 99%;
+          position: relative;
+          top: 60px !important;
+         }
+        .info {
+          position: relative;
+          text-align: start;
+          right: -5% !important;
+          width: 90% !important;
+          font-size: 20px;
+        }
+
+swiper-container {
+        width: 70% !important;
+    }
+    
+    .description {
+      position: relative;
+      text-align: start;
+      right: -15% !important;
+      width: 70% !important;
+      font-size: 20px;
+    }
+
+      }
+
+
+      .description {
+        position: relative;
+        text-align: start;
+        right: -30%;
+        width: 40%;
+        font-size: 20px;
+      }
+
+.info {
+  position: relative;
+
+  width: 50%;
+  right: -25%;
+
+}
